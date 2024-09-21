@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  color: #333333;
+}
+
 body {
   background-color: #F5F4F0;
 }
@@ -16,13 +20,13 @@ main {
 .headline {
   font-weight: bold;
   color: #E1624F;
-  margin-bottom: 8px;
   text-transform: uppercase;
 }
 
 h1 {
   font-size: 36px;
   color: #1B1B1B;
+  margin-top: 8px;
   margin-bottom: 40px;
 }
 
@@ -36,13 +40,18 @@ h1 {
 .description {
   text-align: center;
   font-style: italic;
-  color: #333333;
-  margin-bottom: 40px;
 }
 
 .divider {
   width: 100%;
   height: 1px;
-  margin: 36px 0;
+  margin: 40px 0 64px;
   background-color: #d9d9d9;
+}
+
+h2 {
+  font-size: 32px;
+  color: #1B1B1B;
+  margin-top: 2px;
+  margin-bottom: 8px;
 }
