@@ -18,6 +18,10 @@ main {
   margin: 88px auto 65px;
 }
 
+#next-trip {
+  margin-bottom: 40px;
+}
+
 .headline {
   font-weight: bold;
   color: #E1624F;
@@ -46,8 +50,11 @@ h1 {
 .divider {
   width: 100%;
   height: 1px;
-  margin: 40px 0 64px;
   background-color: #d9d9d9;
+}
+
+#history-lovers {
+  margin-top: 64px;
 }
 
 h2 {
@@ -55,4 +62,67 @@ h2 {
   color: #1B1B1B;
   margin-top: 2px;
   margin-bottom: 8px;
+}
+
+
+h2 + p {
+  margin-bottom: 64px;
+}
+
+#history-lovers img {
+  width: 100%;
+  height: 350px;
+  border-radius: 28px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  padding-left: 16px;
+  font-size: 28px;
+  color: #1B1B1B;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+ul {
+  padding-left:24px;
+  color: #0C51A7;
+  font-weight: bold;
+  margin-bottom: 48px;
+}
+
+li::marker {
+  color: #333333;
+}
+
+#third ul {
+  margin-bottom: 40px;
+}
+
+#third ul li:nth-child(1) {
+  color: #591B98;
+}
+
+#third ul li:nth-child(2) {
+  color: #E5245E;
+}
+
+#third ul li:nth-child(3) {
+  color: #E95E10;
+}
+
+.divider + p {
+  text-align: center;
+  margin: 40px 0 65px;
+}
+
+footer {
+  font-family: "Alice", serif;
+  text-align: center;
+  line-height: 150%;
+  margin-bottom: 48px;
+}
+
+footer img {
+  vertical-align: middle;
 }
